@@ -23,7 +23,7 @@ This project builds a supervised machine learning pipeline to detect fraudulent 
 clinical-claims-fraud-detection/
 │
 ├── notebooks/                 # Jupyter notebooks for EDA and modeling
-├── outputs/                   # SHAP plots, feature importance, Power BI screenshots
+├── outputs/                   # SHAP plots, feature importance
 ├── data/                      # NO raw data; link provided
 │   └── README.md
 ├── scripts/                   # Utility scripts for training and preprocessing
@@ -65,19 +65,6 @@ clinical-claims-fraud-detection/
   - Claim type ratios
   - Annual deductible patterns
 
----
-
-## 📊 Power BI Dashboard
-
-Includes:
-- Fraud probability by provider
-- Geographic fraud heatmap
-- High-risk claim types
-- Filterable by claim type, state, fraud prediction
-
-> 📷 Screenshot: See `outputs/powerbi_dashboard.png`
-
----
 
 ## 📥 How to Run
 
