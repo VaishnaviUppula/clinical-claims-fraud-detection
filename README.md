@@ -26,7 +26,6 @@ clinical-claims-fraud-detection/
 ├── outputs/                   # SHAP plots, feature importance
 ├── data/                      # NO raw data; link provided
 │   └── README.md
-├── scripts/                   # Utility scripts for training and preprocessing
 ├── requirements.txt           # Python package dependencies
 └── README.md                  # This file
 ```
