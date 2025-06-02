@@ -1,86 +1,21 @@
-# 🏥 Clinical Claims Fraud Detection System
+# 📂 Data Folder
 
-Detecting fraudulent healthcare providers using supervised machine learning, SHAP explainability, and Power BI visualizations.
+This folder is **intentionally left empty** of raw data to keep the repository lightweight and compliant with data sharing policies.
 
----
+## 📊 Dataset Used
 
-## 📌 Project Summary
+**Healthcare Provider Fraud Detection Analysis**  
+Source: [Kaggle Dataset Link](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis)
 
-This project builds a supervised machine learning pipeline to detect fraudulent healthcare providers using a real-world clinical claims dataset. The goal is to identify providers with suspicious claim behavior by analyzing inpatient/outpatient claims, patient conditions, and reimbursement data.
+## 🔄 Instructions to Download
 
-✅ **91% accuracy**  
-✅ **88% precision**  
-✅ **ROC-AUC: 0.94**  
-
----
-
-## 📂 Folder Structure
-
-```
-clinical-claims-fraud-detection/
-│
-├── notebooks/                 # Jupyter notebooks for EDA and modeling
-├── outputs/                   # SHAP plots, feature importance
-├── data/                      # NO raw data; link provided
-│   └── README.md
-├── scripts/                   # Utility scripts for training and preprocessing
-├── requirements.txt           # Python package dependencies
-└── README.md                  # This file
-```
-
----
-
-## 📊 Tech Stack
-
-- **Python**: pandas, scikit-learn, shap, imbalanced-learn
-- **ML Model**: Random Forest (with SMOTE)
-- **Explainability**: SHAP (Shapley values)
-- **Visualization**: Seaborn, Matplotlib
-- **Data**: [Healthcare Provider Fraud Detection Dataset (Kaggle)](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis)
-
----
-
-## 🔍 Features Engineered
-
-- Provider-level aggregation of claim behavior
-- Inpatient vs outpatient claim ratios
-- Chronic condition summaries
-- Reimbursement and deductible patterns
-- Fraud risk scores per provider
-
----
-
-## 📈 Results
-
-- **Model Performance**:  
-  - Accuracy: 91%  
-  - Precision: 88%  
-  - ROC-AUC: 0.94
-
-- **SHAP Feature Importance**:
-  - Chronic condition flags
-  - Claim type ratios
-  - Annual deductible patterns
+1. Visit the [Kaggle dataset page](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis)
+2. Sign in with your Kaggle account.
+3. Click "Download All" to get the dataset ZIP.
 
 
-## 📥 How to Run
+## 🔒 Data Privacy
 
-1. Clone this repo
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Open notebooks in `/notebooks/` to explore code
-4. Use `fraud_predictions_for_powerbi.csv` in Power BI to explore insights
+This dataset is publicly available for educational use.  
+Do **not** upload or share sensitive or proprietary data through this repository.
 
----
-
-## 🧠 About Me
-
-I'm an aspiring data scientist transitioning from mainframe healthcare systems to applied machine learning. This is the first in a series of projects solving real-world healthcare problems.
-
----
-
-## 📄 License
-
-This project is licensed for educational and portfolio purposes.
