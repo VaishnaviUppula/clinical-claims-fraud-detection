@@ -11,7 +11,6 @@ This project builds a supervised machine learning pipeline to detect fraudulent 
 ✅ **91% accuracy**  
 ✅ **88% precision**  
 ✅ **ROC-AUC: 0.94**  
-✅ **Power BI dashboard for fraud insights**
 
 ---
 
@@ -21,7 +20,7 @@ This project builds a supervised machine learning pipeline to detect fraudulent 
 clinical-claims-fraud-detection/
 │
 ├── notebooks/                 # Jupyter notebooks for EDA and modeling
-├── outputs/                   # SHAP plots, feature importance, Power BI screenshots
+├── outputs/                   # SHAP plots, feature importance
 ├── data/                      # NO raw data; link provided
 │   └── README.md
 ├── scripts/                   # Utility scripts for training and preprocessing
@@ -36,7 +35,7 @@ clinical-claims-fraud-detection/
 - **Python**: pandas, scikit-learn, shap, imbalanced-learn
 - **ML Model**: Random Forest (with SMOTE)
 - **Explainability**: SHAP (Shapley values)
-- **Visualization**: Power BI
+- **Visualization**: Seaborn, Matplotlib
 - **Data**: [Healthcare Provider Fraud Detection Dataset (Kaggle)](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis)
 
 ---
@@ -63,19 +62,6 @@ clinical-claims-fraud-detection/
   - Claim type ratios
   - Annual deductible patterns
 
----
-
-## 📊 Power BI Dashboard
-
-Includes:
-- Fraud probability by provider
-- Geographic fraud heatmap
-- High-risk claim types
-- Filterable by claim type, state, fraud prediction
-
-> 📷 Screenshot: See `outputs/powerbi_dashboard.png`
-
----
 
 ## 📥 How to Run
 
