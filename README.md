@@ -73,7 +73,6 @@ clinical-claims-fraud-detection/
    pip install -r requirements.txt
    ```
 3. Open notebooks in `/notebooks/` to explore code
-4. Use `fraud_predictions_for_powerbi.csv` in Power BI to explore insights
 
 ---
 
