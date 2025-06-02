@@ -1,6 +1,3 @@
-# clinical-claims-fraud-detection
-Machine learning system to detect healthcare provider fraud using claim-level data
-
 # 🏥 Clinical Claims Fraud Detection System
 
 Detecting fraudulent healthcare providers using supervised machine learning, SHAP explainability, and Power BI visualizations.
