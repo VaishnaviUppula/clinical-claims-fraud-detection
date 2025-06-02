@@ -14,7 +14,6 @@ This project builds a supervised machine learning pipeline to detect fraudulent 
 ✅ **91% accuracy**  
 ✅ **88% precision**  
 ✅ **ROC-AUC: 0.94**  
-✅ **Power BI dashboard for fraud insights**
 
 ---
 
